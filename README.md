@@ -52,7 +52,7 @@ My submission is currently ranked in the Top 12% on [Kaggle](https://www.kaggle.
 
 ![Predictions2](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictionchart2.png)
 
-![Training Predictions](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictiontrain1.png)
+![Training Predictions](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictiontrain2.png)
 
 In the next several days, I will be looking to improve my predictions.
 
