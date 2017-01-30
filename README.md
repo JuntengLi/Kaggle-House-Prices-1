@@ -10,7 +10,7 @@ The potential for creative feature engineering provides a rich opportunity for f
 
 ## Introduction
 
-In this Kaggle challenge, I use different Regression and other Machine Learning techniques to predict the final price for each home using the features provided in the dataset. Before running ML algorithms, I preprocessed the data to remove outliers, to deal with missing values, and to encode categorical variables. Following describe the steps.
+In this Kaggle challenge, I use different Regression and other Machine Learning techniques to predict the final price for each home using the features provided in the dataset. Before running ML algorithms, I preprocessed the data to remove outliers, to deal with missing values, and to encode categorical variables. 
 
 ## Data Preprocessing and Exploration
 
