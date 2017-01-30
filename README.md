@@ -1,4 +1,4 @@
-# ![House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+# [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
 
 Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
@@ -14,7 +14,7 @@ In this Kaggle challenge, I use different Regression and other Machine Learning 
 
 ## Data Preprocessing and Exploration
 
-![Data Preprocessing Notebook](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Feature%20Engineering-2.ipynb)
+[Data Preprocessing Notebook](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Feature%20Engineering-2.ipynb)
 
 In the above notebook, I do the following:
 
@@ -35,14 +35,14 @@ I decided to use Ridge and Lasso Regression, Gradient Boosting Machine (Gradient
 
 We can improve a model’s performance by tuning its parameters. So I used grid search method to tune hyperparameters for xgboost regressor, GradientBoostingRegressor, and ExtraTreesRegressor. Following notebooks contain Model Training.
 
-![Boosting](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Boosting-3.ipynb)
-![ExtraTreesRegression](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20ExtraTreesRegressor.ipynb)
+[Boosting](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Boosting-3.ipynb)
+[ExtraTreesRegression](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20ExtraTreesRegressor.ipynb)
 
 ## Ensemble Generation
 
 Ensemble Learning refers to the technique of combining different models. It reduces both bias and variance of the final model, thus increasing the score and reducing the risk of overfitting. Techniques like boosted trees and ExtraTreesRegressor are already using Ensemble method and I also used stacking method to combine the output from the 3 techniques (Ridge, Lasso and GBM) and used them as meta features to xgboost algorithm to predict final output. Following notebook has the details:
 
-![Stacking Notebook](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Stacking.ipynb)
+[Stacking Notebook](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Stacking.ipynb)
 
 ## Results
 
