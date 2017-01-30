@@ -25,7 +25,7 @@ In the above notebook, I do the following:
   
 Some of the features are shown below in this plot of features vs output price
 
-![Features]https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/Features.png
+![Features](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/Features.png)
   
 ## Model Selection
 
@@ -47,10 +47,11 @@ https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Pri
 
 ## Results
 
-My submission is currently ranked in the Top 12% on Kaggle and this can certainly be improved. One thing I notice is that at higher house prices errors increase and we seem to be underpredicting the price. Following charts show this (it is predicted on 20% of the validation data set aside from the Training data):
+My submission is currently ranked in the Top 12% on Kaggle (https://www.kaggle.com/prabaltiwaree) and this can certainly be improved. One thing I notice is that at higher house prices errors increase and we seem to be underpredicting the price. Following charts show this (it is predicted on 20% of the validation data set aside from the Training data):
 
-![Predictions1]https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictionchart1.png
-![Predictions2]https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictionchart2.png
+![Predictions1](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictionchart1.png)
+
+![Predictions2](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictionchart2.png)
 
 In the next several days, I will be looking to improve my predictions.
 
