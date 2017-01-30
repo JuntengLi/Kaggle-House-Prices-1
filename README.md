@@ -19,7 +19,7 @@ In this Kaggle challenge, I use different Regression and other Machine Learning 
 In the above notebook, I do the following:
 
   1. Load the csv files
-  2. Look into null values and fix them if they needed fixing. Some nulls were legitimate. For example, if the garage has no fireplace (Fireplaces=0), then Fireplace Quality (FireplaceQu) equal to null is fine. In other cases, like LotFrontage, I use the median LotFrontage for the neighborhood to replace the nulls.
+  2. Look into null values and fix them if they needed fixing. Some nulls were legitimate. For example, if the house has no fireplace (Fireplaces=0), then Fireplace Quality (FireplaceQu) equal to null is fine. In other cases, like LotFrontage, I use the median LotFrontage for the neighborhood to replace the nulls.
   3. Address skewness of features and output by log transforming them.
   4. Do one-hot encoding for categorical variables. This increased the number of features but not by much.
   
