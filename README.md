@@ -1,4 +1,5 @@
-# House Prices: Advanced Regression Techniques
+# ![House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
 
 Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
 
@@ -6,7 +7,6 @@ With 79 explanatory variables describing (almost) every aspect of residential ho
 
 The potential for creative feature engineering provides a rich opportunity for fun and learning. This dataset lends itself to advanced regression techniques like random forests and gradient boosting with the popular XGBoost library. We encourage Kagglers to create benchmark code and tutorials on Kernels for community learning. Top kernels will be awarded swag prizes at the competition close. 
 
-https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
 ## Introduction
 
@@ -14,7 +14,7 @@ In this Kaggle challenge, I use different Regression and other Machine Learning 
 
 ## Data Preprocessing and Exploration
 
-https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Feature%20Engineering-2.ipynb
+![Data Preprocessing Notebook](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Feature%20Engineering-2.ipynb)
 
 In the above notebook, I do the following:
 
@@ -35,19 +35,18 @@ I decided to use Ridge and Lasso Regression, Gradient Boosting Machine (Gradient
 
 We can improve a model’s performance by tuning its parameters. So I used grid search method to tune hyperparameters for xgboost regressor, GradientBoostingRegressor, and ExtraTreesRegressor. Following notebooks contain Model Training.
 
-https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Boosting-3.ipynb
-https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20ExtraTreesRegressor.ipynb
-https://github.com/ptiwaree/Kaggle-House-Prices/tree/master/Modeling
+![Boosting](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Boosting-3.ipynb)
+![ExtraTreesRegression](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20ExtraTreesRegressor.ipynb)
 
 ## Ensemble Generation
 
 Ensemble Learning refers to the technique of combining different models. It reduces both bias and variance of the final model, thus increasing the score and reducing the risk of overfitting. Techniques like boosted trees and ExtraTreesRegressor are already using Ensemble method and I also used stacking method to combine the output from the 3 techniques (Ridge, Lasso and GBM) and used them as meta features to xgboost algorithm to predict final output. Following notebook has the details:
 
-https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Stacking.ipynb
+![Stacking Notebook](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Modeling/House%20Prices%20-%20Stacking.ipynb)
 
 ## Results
 
-My submission is currently ranked in the Top 12% on Kaggle (https://www.kaggle.com/prabaltiwaree) and this can certainly be improved. One thing I notice is that at higher house prices errors increase and we seem to be underpredicting the price. Following charts show this (it is predicted on 20% of the validation data set aside from the Training data):
+My submission is currently ranked in the Top 12% on ![Kaggle](https://www.kaggle.com/prabaltiwaree) and this can certainly be improved. One thing I notice is that at higher house prices errors increase and we seem to be underpredicting the price. Following charts show this (it is predicted on 20% of the validation data set aside from the Training data):
 
 ![Predictions1](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictionchart1.png)
 
