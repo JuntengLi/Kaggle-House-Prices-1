@@ -64,6 +64,7 @@ My submission is currently ranked in the Top 12% on [Kaggle](https://www.kaggle.
 ####Modeling:
 
 * numpy
+* scipy
 * pandas
 * scikit-learn
 * xgboost
