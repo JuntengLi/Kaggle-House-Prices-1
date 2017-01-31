@@ -46,15 +46,13 @@ Ensemble Learning refers to the technique of combining different models. It redu
 
 ## Results
 
-My submission is currently ranked in the Top 12% on [Kaggle](https://www.kaggle.com/prabaltiwaree) and this can certainly be improved. One thing I notice is that at higher house prices errors increase and we seem to be underpredicting the price. Following charts show this (it is predicted on 20% of the validation data set aside from the Training data):
+My submission is currently ranked in the Top 12% on [Kaggle](https://www.kaggle.com/prabaltiwaree) and this can certainly be improved. One thing I notice is that at higher house prices errors increase and I seem to be underpredicting the price. Following charts show this (it is predicted on 20% of the validation data set aside from the Training data):
 
 ![Predictions1](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictionchart1.png)
 
 ![Predictions2](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictionchart2.png)
 
 ![Training Predictions](https://github.com/ptiwaree/Kaggle-House-Prices/blob/master/Results/predictiontrain2.png)
-
-In the next several days, I will be looking to improve my predictions.
 
 ## Tools Utilized
 
